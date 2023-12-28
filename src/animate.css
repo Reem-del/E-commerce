@@ -1,0 +1,10 @@
+.showing{animation:show 1s linear  }
+@keyframes show{
+from {opacity:0;transform:translate(-100%,-100%)}
+to{opacity:2;transform:translate(-50%,-50%);}
+}
+.appear{animation:appear 1s linear  }
+@keyframes appear{
+from {opacity:0}
+to{opacity:1;}
+}
